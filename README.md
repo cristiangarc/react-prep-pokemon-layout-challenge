@@ -10,7 +10,7 @@
 
 <img src="./src/assets/page.png" width="650" height="475">
 
-Try to approximate the layout above in ReactJS using a Header, Aside, Main & Footer components. Maybe CSS Grid? It does not need to be exact. Just as close an approximation as you can get.
+Try to approximate the layout above in ReactJS nesting Header, Aside, Main & Footer components in the App.jsx file. Maybe CSS Grid? It does not need to be exact. Just as close an approximation as you can get.
 
 In the Aside component create a list using `.map` if you can. If not then hard code the list.
 

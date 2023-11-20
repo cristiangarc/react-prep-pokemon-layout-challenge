@@ -1,29 +1,21 @@
-# Basic React Starter
-
-You can use this starter to create any ReactJS app you would like.
-Unlike when you use `npm create vite@latest your-app-name -- --template react`,
-
-This repo has removed all of the unwanted starter code that is normally included when using `npm` to create an application.
+# Pokemon Layout
 
 ## Getting started
 
-- `clone` this application
-- `cd` into the folder
-- in the terminal run `git remote remove origin` in order to remove any connection to this Github folder.
-- change the name of this directory to a name that refers to your current project. Don't just leave it as `basic-starter`
-- run `npm install`
-- to start the project, run `npm run dev`
-- no navigate to `localhost:3000` and you will see the app
-- Now you are ready to code
+- fork and clone this repo
 
-If you would like to connect this afterwards to your personal Github then:
+- `npm install`
 
-- go to your Github account in the browser
-- create a new repo and give it a name
-- make sure the repo is public and click `Create Repository`
-- copy the instructions under the title `…or push an existing repository from the command line`
-- paste the commands in your terminal
+- `npm run dev` to run the app on port 3000
 
-You have now connected your project to the repo.
+<img src="./assets/page.png" width="800" height="600">
 
-**You have the ability to clone this repo over and over to create your own projects. Just remember to change the name of the folder so that you do not have duplicates**
+Try to create the image above in ReactJS using a Header, Aside, Main & Footer components. It does not need to be exact. Just as close an approximation as you can get.
+
+In the Aside component create a list using `.map` if you can. If not then hard code the list.
+
+You may put all of your CSS in the App.css for simplicity or if you like, you can create connected CSS files that coordinate with each component.
+
+Images for the Main component background and Bulbasaur image are located in the `assets` folder.
+
+Good Luck!

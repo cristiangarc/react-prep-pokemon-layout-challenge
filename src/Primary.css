@@ -1,0 +1,24 @@
+.primary {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px 0px 0px;
+    height: 700px;
+}
+
+.grass {
+    background-color: green;
+    color: white;
+}
+
+.vine-whip {
+    background-color: white;
+    color: green;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    margin: 0 auto;
+}

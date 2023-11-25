@@ -1,7 +1,19 @@
+import Aside from "./Aside"
+import Primary from "./Primary";
+import Header from "./Header.jsx"
+import Footer from "./Footer.jsx"
+
+import "./App.css"
+
 const App = () => {
   return (
-    <div>
-      <h1>Pokemon Layout</h1>
+    <div className="container">
+      <Header />
+      <div className="primary-aside">
+        <Aside />
+        <Primary />
+      </div>
+      <Footer />
     </div>
   );
 };
